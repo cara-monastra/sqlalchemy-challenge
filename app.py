@@ -8,7 +8,7 @@ from sqlalchemy import create_engine, func
 import numpy as np
 import pandas as pd
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template, make_response
 #################################################
 # Database Setup
 #################################################
